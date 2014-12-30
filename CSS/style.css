@@ -49,6 +49,20 @@ table {
 body {
     background-color: LightGray;
 }
-div {
-    border: 1px solid Chocolate;
+
+nav {
+	background-color: #fff;
+	width: 100%;
+	color: gray;
+	padding: 2em;
+	position: fixed;
+}
+nav .meet{
+	color: black;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 1em;
+	float: left;
 }
