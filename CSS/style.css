@@ -49,18 +49,20 @@ table {
 body {
 	
 }
-
+.content{
+	padding: 0 15px;
+	margin: 0 auto;
+	width: 970px;
+}
 .top-navigation {
 	background-color: #fff;
 	width: 100%;
 	position: fixed;
+
 }
 
 .top-navigation .content{
-	width: 970px;
 	height: 70px;
-	margin: 0 auto;
-	padding: 0px 15px;
 
 }
 .top-navigation .links{
@@ -93,10 +95,13 @@ body {
 .introduction{
 	background-image: url('../images/first-background copy.jpg');
 	background-size: cover;
+	background-position: center bottom;
 	background-repeat: no-repeat;
-	height: 45em;
+	height: 45.938rem;
 	
 }
 .introduction .intro-content{
 	color: #fff;
+	width: 864px;
+	height: 173px;
 }
