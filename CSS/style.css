@@ -52,7 +52,8 @@ body {
 
 .top-navigation {
 	background-color: #fff;
-
+	position: fixed;
+	width: 100%;
 }
 
 .top-navigation .content{
@@ -60,6 +61,7 @@ body {
 	height: 70px;
 	margin: 0 auto;
 	padding: 0px 15px;
+
 }
 .top-navigation .links{
 	float:right;
@@ -68,6 +70,7 @@ body {
 	color: #838994; 
 	letter-spacing: 0.03em;
     -webkit-font-smoothing: antialiased;
+
 
 }
 .top-navigation .links .active{
@@ -86,4 +89,14 @@ body {
 }
 .top-navigation .content .logo{
 	margin-top: 1em;
+}
+.introduction{
+	background-image: url('../images/first-background copy.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 45em;
+}
+.introduction .content{
+	color: #fff;
+	margin-top: -0.2em;
 }
