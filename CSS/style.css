@@ -52,8 +52,8 @@ body {
 
 .top-navigation {
 	background-color: #fff;
-	position: fixed;
 	width: 100%;
+	position: fixed;
 }
 
 .top-navigation .content{
@@ -95,8 +95,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 45em;
+	
 }
-.introduction .content{
+.introduction .intro-content{
 	color: #fff;
-	margin-top: -0.2em;
 }
