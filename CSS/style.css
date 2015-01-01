@@ -148,6 +148,7 @@ body {
 	font-size: 1.5rem;
 	font-weight: 400rem;
 	padding-top: 2em; 
+	padding-bottom: 4em;
 }
 .cases .cases-content .devices li{
 	display: inline-block;
@@ -155,4 +156,11 @@ body {
 	margin: 1em;
 	margin-top: 2em;
 }
+.social .content{
+	margin: o auto;
+	text-align: center;
+}
+.social .content h5{
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
