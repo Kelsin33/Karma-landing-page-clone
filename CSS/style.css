@@ -133,6 +133,7 @@ body {
 	background-color: #f15a29;
 	color: white;
 	margin: 0 auto;
+	cursor: pointer;
 }
 .cases .cases-content{
 	margin: 0 auto;
