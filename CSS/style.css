@@ -66,6 +66,8 @@ body {
 .top-navigation {
 	background-color: #fff;
 	width: 100%;
+	z-index: 9999;
+	position: fixed;
 }
 .top-navigation .links{
 	float:right;
@@ -131,4 +133,26 @@ body {
 	background-color: #f15a29;
 	color: white;
 	margin: 0 auto;
+}
+.cases .cases-content{
+	margin: 0 auto;
+	text-align: center;
+}
+.cases .cases-content h2{
+	font-size: 2rem;
+	font-weight: 300rem;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+.cases .cases-content h3{
+	font-size: 1.5rem;
+	font-weight: 400rem;
+	padding-top: 2em; 
+}
+.cases .cases-content .devices li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 1em;
+	margin-top: 2em;
+}
 }
